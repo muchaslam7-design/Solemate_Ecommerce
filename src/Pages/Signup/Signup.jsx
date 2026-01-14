@@ -47,11 +47,16 @@ const Signup = () => {
                 }, 2500);
             } else {
                 const savedUser = JSON.parse(localStorage.getItem("registeredUser"));
-                if (savedUser?.email === data.email && savedUser?.password === data.password) {
+                
+                if (
+                    savedUser?.email === data.email && 
+                    savedUser?.password === data.password &&
+                    savedUser?.role === data.role 
+                ) {
                     localStorage.setItem("curr_session", "active");
                     setShowSuccess(true);
                     setTimeout(() => { 
-                        window.location.href = `/${data.role}`; 
+                        window.location.href = `/${savedUser.role}`;
                     }, 2500);
                 } else {
                     setStatus('error');
