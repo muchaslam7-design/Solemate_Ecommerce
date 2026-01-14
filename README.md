@@ -4,7 +4,8 @@ Solemate - E-commerce Frontend
 
 | Desktop View | Mobile View |
 |---|---|
-| ![Desktop Screenshot](<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ba263d41-f6e3-49a3-b93d-3614f0a110b9" />) | ![Mobile Screenshot](<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/4bb4e6c2-613b-41af-83bb-3a84b6ebc867" />
+| ![Desktop Screenshot](<img width="1600" height="900" alt="Screenshot (752)" src="https://github.com/user-attachments/assets/3955058c-4d51-4433-95b9-242ebea03d8a" />
+) | ![Mobile Screenshot](<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/4bb4e6c2-613b-41af-83bb-3a84b6ebc867" />
 ) |
 
 A professional, responsive e-commerce application built with a focus on modern UI and robust data handling.
